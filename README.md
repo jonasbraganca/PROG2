@@ -7,11 +7,14 @@ O encapsulamento se trata da junção de métodos e dados em uma única classe, 
 Os modificadores de visibilidade são: “private”, “public”, “protected”, e “default”. O “private”, relacionado a questão anterior é um método usado para restringir o acesso a informações , nesse caso somente aquela classe que está inserido terá acesso as informações, num exemplo prático seria as notas e índices acadêmicos de um colega de turma da faculdade no Sigaa. Já o “public” está relacionado a permitir que informações não sensíveis possam ser acessadas, não somente aquela restrita classe, em exemplo prático se trataria de acessar informações como o número de matrícula e nome de um colega de turma no Sigaa da Universidade. O “protected” está ligado a um acesso restrito a uma subclasse ou outras classes, nesse caso do sistema de informações da Universidade, seria o acesso pela secretaria da Universidade à detalhes mais específicos do aluno. E por fim o “default” se trata de quando não há a declaração de restrição de acesso de forma explícita, e não é acessível por classes de pacotes diferentes, somente do mesmo pacote, em exemplo seria o acesso a informações da própria pessoa (considerando que isso seria dentro de um mesmo pacote) sobre suas notas e índices acadêmicos, por exemplo.
 
 # Q3 - O princípio da separação de responsabilidades (Separation of Concerns) é essencial em Orientação a Objetos. Explique esse princípio e discuta como ele pode ser aplicado ao projetar classes e métodos em um sistema Java.
+A separação de responsabilidades discute que o software seja divido em partes, de modo que cada parte tenha uma responsabilidade e funcionalidade. Com a Orientação a Objetos, cada classe do código vai ter um acesso e um método que será acessado e/ou modificado, que em um sistema Java, a divisão permite que sejam feitas correções ou atualizações de modo mais isolado, sem comprometer outras partes, por exemplo. 
+
 
 # Q4 - Implemente uma classe Livro em Java com os seguintes atributos: titulo (título do livro), autor (nome do autor), e numeroPaginas (número de páginas). 
 # ● Todos os atributos devem ser privados.
 # ● A classe deve possuir construtores para inicializar os objetos e métodos para exibir as informações do livro (exibirDetalhes).
 # ● Implemente também os métodos getters e setters necessários.
+O código está [aqui] (https://github.com/jonasbraganca/PROG2/tree/main/Q4)  
 
 # Q5 - Com base na classe Livro criada na questão anterior, implemente uma classe Biblioteca que seja capaz de gerenciar múltiplos livros.
 # ● A classe Biblioteca deve possuir um atributo privado que armazene uma lista de livros.
