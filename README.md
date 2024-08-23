@@ -1,7 +1,7 @@
 # PROG2
 
 # Q1 - Explique o conceito de encapsulamento e como ele está relacionado ao princípio de Information Hiding. Por que é importante utilizar esses conceitos em projetos de software?
-O encapsulamento se trata da junção de métodos e dados em uma única classe, e ele permite controlar e esconder as informações privadas e mostre apenas as informações que devem ser mostradas publicamente, como o Information Hiding está relacionado a esconder as informações sensíveis que ao serem expostas podem causar risco, com isso são comceitos que estão intimamente relacionados.
+O encapsulamento se trata da junção de métodos e dados em uma única classe, e ele permite controlar e esconder as informações privadas e mostre apenas as informações que devem ser mostradas publicamente, como o Information Hiding está relacionado a esconder as informações sensíveis que ao serem expostas podem causar risco os conceitos se relacionam intimamente.
 
 # Q2 - Em Java, existem diferentes modificadores de visibilidade para atributos e métodos. Quais são esses modificadores, e qual o propósito de cada um deles? Dê exemplos de situações em que cada um deles seria mais adequado.
 
